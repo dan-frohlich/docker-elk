@@ -10,6 +10,9 @@ Run the latest version of the [Elastic stack](https://www.elastic.co/elk-stack) 
 security](https://www.elastic.co/guide/en/elasticsearch/reference/current/configuring-security.html) enabled. The [trial
 license](https://www.elastic.co/guide/en/elasticsearch/reference/current/license-settings.html) is valid for 30 days.
 
+**Note**: This version has [Canvas support](https://www.elastic.co/blog/getting-started-with-canvas-in-kibana). The
+ Canvas plugin requires 2G of RAM durring installation. Allocate 3G of RAM to docker.
+
 It will give you the ability to analyze any data set by using the searching/aggregation capabilities of Elasticsearch
 and the visualization power of Kibana.
 
