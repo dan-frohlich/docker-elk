@@ -12,6 +12,8 @@ license](https://www.elastic.co/guide/en/elasticsearch/reference/current/license
 **Note**: This version has [Canvas support](https://www.elastic.co/blog/getting-started-with-canvas-in-kibana). The
  Canvas plugin requires 2G of RAM durring installation. Allocate 3G of RAM to docker.
 
+**Note**: to build with canvas, `./getCanvas.sh` then `docker-compuse up`.
+
 It will give you the ability to analyze any data set by using the searching/aggregation capabilities of Elasticsearch
 and the visualization power of Kibana.
 
