@@ -41,7 +41,6 @@ services:
     build:
       context: kibana/
       args:
-        CANVAS_VERSION: $CANVAS_VERSION
         ELK_VERSION: $ELK_VERSION
     volumes:
       - ./kibana/config/kibana.yml:/usr/share/kibana/config/kibana.yml:ro
